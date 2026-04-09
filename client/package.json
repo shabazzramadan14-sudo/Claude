@@ -1,0 +1,25 @@
+{
+  "name": "pov-streaming-client",
+  "version": "1.0.0",
+  "description": "POV Streaming App — React frontend",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.6.1",
+    "axios": "^1.6.0",
+    "@stripe/stripe-js": "^2.2.0",
+    "@stripe/react-stripe-js": "^2.3.1"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
